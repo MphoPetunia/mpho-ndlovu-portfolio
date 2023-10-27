@@ -149,3 +149,14 @@ p {
     display: flex !important;
   }
 }
+
+footer .email-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer .about-link:hover {
+  color: var(--branding-color);
+}

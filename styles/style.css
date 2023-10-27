@@ -1,14 +1,14 @@
 :root {
   --primary-color: #6c63ff;
-  --secondary-color: #fdc7b5;
+  --secondary-color: #988c88;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --branding-color: rgb(172, 135, 66);
+  --branding-color: rgb(224, 194, 137);
 }
 body {
   font-family: var(--default-font-family);
-  background: rgb(234, 211, 169);
+  background: #faf7fe;
 }
 h1,
 h2,
@@ -143,13 +143,13 @@ p {
   line-height: 1.5;
   font-family: var(--default-font-family);
 }
-.footer.social-links a {
+footer.social-links a {
   margin: 0 20px;
   border-radius: 50%;
   color: var(--branding-color);
   background: var(--secondary-color);
-  padding: 10px 14px;
-  font-size: 18px;
+  padding: 20px 24px;
+  font-size: 14px;
   transition: all 100ms ease-in-out;
 }
 

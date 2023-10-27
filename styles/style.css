@@ -152,6 +152,8 @@ footer .contact-box {
   background: #c9bdd8;
   padding: 20px;
   border-radius: 10px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 footer.contact-box p {
